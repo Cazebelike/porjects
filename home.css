@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto:ital,wght@0,400;0,500;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: url("./Best-Metroidvania-Games-on-Mobile-2023-1116x628.webp")
+    center center/cover no-repeat;
+}
+.logo .zurag {
+  width: 40px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+.menu {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+input {
+  width: 400px;
+  height: 40px;
+  background-color: none;
+  border-radius: 50px;
+}
+.menu-items {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.menu-items p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(199, 200, 201);
+}
+
+.menu-items button {
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.show-case {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+}
+.left-case,
+.right-case {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 50px 0;
+}
+.show-case h1 {
+  font-size: 50px;
+  font-family: roboto;
+  color: azure;
+}
+.show-case h2 {
+  font-size: 30px;
+  color: azure;
+}
+.mod {
+  display: flex;
+  flex-direction: column;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: end;
+  transition: 0.3s;
+  background-color: rgb(196, 134, 215);
+}
+.incons {
+  width: 35px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(196, 134, 215);
+  border-radius: 5px;
+  margin-top: -120px;
+  gap: 5px;
+  transition: 0.2s;
+  align-items: center;
+  padding: 5px;
+  position: fixed;
+}
+.mod:hover {
+  transform: scale(1.1);
+  margin-left: 3px;
+  width: 100px;
+  border-radius: 5px;
+}
+.btn2 {
+  border-radius: 5px;
+  background-color: rgb(196, 134, 215);
+  border: none;
+  width: 2%;
+  position: fixed;
+  margin-top: 160px;
+}
+/* .btn2:hover{
+   
+  } */
+.icons-hover {
+  transform: translateX(-50px);
+}
+.inp {
+  border-radius: 50px;
+  width: 350px;
+  height: 35px;
+  margin-right: 20px;
+  inline-size: none;
+  background: transparent;
+  border: 1px solid rgb(167, 202, 236);
+  padding-left: 15px;
+}
+
+.inp:focus {
+  border: none;
+}
+.menu p:hover {
+  color: #ffffff;
+}
+.bnt {
+  border-radius: 50px;
+  font-style: initial;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: black;
+  width: 200px;
+  height: 50px;
+  margin-right: 500px;
+  margin-top: 70px;
+  background-color: rgb(204, 167, 236);
+}
+.left-case {
+  display: flex;
+  justify-content: center;
+}
+.container2 {
+  width: 100vw;
+  height: 800px;
+  background: url("./360_F_395779788_eZIwrg5EW1MJ2L2w1DQnoNp2bea8ZTO3.jpg")
+    center center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  color: azure;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.hex {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: baseline;
+  align-items: center;
+  padding: 0 300px;
+  text-align: center;
+  margin-top: 90px;
+  gap: 30px;
+}
+.zugerl {
+  width: 5px;
+  background-color: blueviolet;
+  height: 40px;
+  display: flex;
+  margin-top: 20px;
+}
+.box {
+  width: 230px;
+  height: 70px;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  border: 2px solid black;
+}
+.boxiin-box {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 50px 200px;
+}
+.boxiin-box a {
+  text-decoration: none;
+}
+.box:hover {
+  background-color: rgb(223, 194, 250);
+}
+.boxiin-bnt {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 400px;
+  height: 50px;
+  color: black;
+  background-color: rgb(235, 234, 235);
+  border-radius: 10px;
+}
+.incons .p {
+  position: absolute;
+  bottom: 10px;
+  background: none;
+  left: 50px;
+  display: none;
+}
+.incons .pp {
+  position: absolute;
+  bottom: 185px;
+  background: none;
+  left: 50px;
+  display: none;
+}
+.incons .ppp {
+  position: absolute;
+  bottom: 149px;
+  background: none;
+  left: 50px;
+  display: none;
+}
+.incons .pppp {
+  position: absolute;
+  bottom: 115px;
+  background: none;
+  left: 50px;
+  display: none;
+}
+.incons .ppppp {
+  position: absolute;
+  bottom: 80px;
+  background: none;
+  left: 50px;
+  display: none;
+}
+.incons .pppppp {
+  position: absolute;
+  bottom: 47px;
+  background: none;
+  left: 50px;
+  display: none;
+}
+.mod6:hover ~ .p {
+  transition: 0.5s;
+  display: block;
+}
+.mod1:hover ~ .pp {
+  transition: 0.5s;
+  display: block;
+}
+.mod2:hover ~ .ppp {
+  transition: 0.5s;
+  display: block;
+}
+.mod3:hover ~ .pppp {
+  transition: 0.5s;
+  display: block;
+}
+.mod4:hover ~ .ppppp {
+  transition: 0.5s;
+  display: block;
+}
+.mod5:hover ~ .pppppp {
+  transition: 0.5s;
+  display: block;
+}
+.zugerl2 {
+  width: 5px;
+  background-color: blueviolet;
+  height: 40px;
+  display: flex;
+  margin-top: 140px;
+
+  justify-content: center;
+}
+footer {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  background-color: #11042a;
+}
+
+.rigth {
+  width: 60%;
+  display: flex;
+  padding-top: 120px;
+  padding-left: 120px;
+}
+.left {
+  width: 40%;
+  display: flex;
+}
+.zurg {
+  width: 70px;
+  height: 70px;
+}
+.rigth p {
+  color: #ffffff;
+  padding-top: 20px;
+}
+.rigth h1 {
+  color: red;
+  padding-top: 10px;
+}
+.rigth h2 {
+  color: #ffffff;
+}
+.iconuud {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+.iconuud img {
+  width: 30px;
+}
+.lolo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.leftiin-left {
+  color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: first baseline;
+  gap: 25px;
+}
+.leftiin-left p {
+  font-size: 20px;
+}
+.leftiin-rigth {
+  color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 150px;
+
+  gap: 25px;
+}
+.leftiin-rigth p {
+  font-size: 20px;
+}
+.p1:hover {
+  color: cadetblue;
+}
+.pp2:hover {
+  color: cadetblue;
+}
+.ppp3:hover {
+  color: cadetblue;
+}
+.pppp4:hover {
+  color: cadetblue;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+}

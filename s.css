@@ -1,0 +1,182 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  color: black;
+  background: url("./Best-Metroidvania-Games-on-Mobile-2023-1116x628.webp")
+    center center/cover no-repeat;
+}
+.container {
+  color: azure;
+  font-size: 55px;
+  display: flex;
+  justify-content: end;
+  padding-right: 50px;
+}
+.container2 {
+  color: azure;
+  position: absolute;
+  right: 235px;
+  top: 250px;
+  display: flex;
+  justify-content: end;
+  padding-right: 50px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+  height: 60px;
+  color: #c8c6c6;
+  /* width: 100%; */
+  height: 100px;
+  background: transparent;
+  /* background-color: rgb(23, 139, 182); */
+}
+
+.navbar ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.navbar ul :hover {
+  color: rgb(255, 255, 255);
+}
+
+.icon {
+  width: 20px;
+  display: flex;
+}
+
+.menu {
+  display: flex;
+}
+.signup {
+  /* background-color: rgb(115, 189, 239); */
+  width: 80px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  border: 2px solid rgb(167, 202, 236);
+}
+.inp {
+  border-radius: 50px;
+  width: 350px;
+  height: 35px;
+  margin-right: 20px;
+  inline-size: none;
+  background: transparent;
+  border: 1px solid rgb(167, 202, 236);
+}
+
+.inp:focus {
+  border: none;
+}
+.dex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  padding-right: 50px;
+}
+.bnt {
+  border-radius: 5px;
+  font-style: initial;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: black;
+  width: 200px;
+  height: 50px;
+  margin-right: 500px;
+  margin-top: 70px;
+  background-color: rgb(204, 167, 236);
+}
+.acc {
+  color: rgb(144, 0, 255);
+  font-size: 20px;
+}
+.zurag {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 62px;
+  top: 32px;
+}
+.mod {
+  display: flex;
+  flex-direction: column;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: end;
+  transition: 0.3s;
+  background-color: rgb(196, 134, 215);
+}
+.incons {
+  width: 35px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(196, 134, 215);
+  border-radius: 5px;
+  margin-top: -120px;
+  gap: 5px;
+  transition: 0.2s;
+  align-items: center;
+  padding: 5px;
+}
+.mod:hover {
+  transform: scale(1.1);
+  margin-left: 3px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+/* .btn2:hover{
+ 
+} */
+.icons-hover {
+  transform: translateX(-50px);
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-content p {
+  margin: 0;
+}
+
+.footer-icons a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}

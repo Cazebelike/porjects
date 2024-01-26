@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <form class="container">
+      <h2 class="heading">Sign Up</h2>
+      <div class="steps-container">
+        <hr />
+        <hr class="active" />
+        <div class="steps"><img src="./user.svg" alt="" /></div>
+        <div class="steps"><img src="./mail.svg" alt="" /></div>
+        <div class="steps"><img src="./vpn-key.svg" alt="" /></div>
+        <div class="steps"><img src="./trophy.svg" alt="" /></div>
+      </div>
+
+      <div class="input-slide-contianer">
+        <scroller>
+          <div class="input-slide">
+            <h3>User Name</h3>
+            <p><i>Username is your online identity</i></p>
+            <ul class="rules">
+              <li>
+                Таны хэрэглэгчийн нэр зөвхөн үсэг, тоо, доогуур зураас агуулсан
+                байх ёстой эсвэл зураас.
+              </li>
+              <li>Хоосон зай эсвэл тусгай тэмдэгт оруулахыг хориглоно.</li>
+              <li>
+                Таны хэрэглэгчийн нэр доромжилсон эсвэл хараалын үг агуулсан
+                байх ёсгүй.
+              </li>
+            </ul>
+            <input
+              type="text"
+              placeholder="Type your username Here"
+              name="username"
+              class="username"
+            />
+            <div class="full-name">
+              <input type="text" placeholder="First Name" name="firstname" />
+              <input
+                type="text"
+                name="lastname"
+                class="lastname"
+                placeholder="Last Name"
+              />
+            </div>
+            <button class="button-nex" onclick="NextSlide(1)">Next</button>
+          </div>
+          <div class="input-slide user-detail">
+            <h3>Email</h3>
+            <p><i>Имэйл бол таны дижитал амьдралд нэвтрэх гарц юм</i></p>
+            <ul class="rules">
+              <li>
+                "example@example.com" форматаар хүчинтэй имэйл оруулна уу.
+              </li>
+              <li>
+                Бид таны хувийн нууцыг эрхэмлэдэг бөгөөд таны имэйлийг хэзээ ч
+                ашиглахгүй зөвшөөрөлгүй зорилго.
+              </li>
+              <li>Өөр хэн нэгний имэйлийг бүү ашигла.</li>
+              <li>Хувийн мэдээлэл агуулсан имэйлийг бүү ашигла.</li>
+            </ul>
+            <input
+              type="email"
+              name="email"
+              class="email"
+              placeholder="Email"
+            />
+
+            <button class="button-nex" onclick="NextSlide(2)">Next</button>
+          </div>
+          <div class="input-slide password-slide">
+            <h3>Password</h3>
+            <p><i>Бүртгэлээ хүчтэй нууц үгээр хамгаалаарай</i></p>
+            <ul class="rules">
+              <li>
+                Том, жижиг үсэг, тоо, холимогийг оруулна уу тусгай дүрүүд.
+              </li>
+              <li>
+                Нийтлэг эсвэл амархан тааварлах нууц үг ашиглахаас зайлсхий.
+              </li>
+              <li>Хувийн мэдээллийг бүү ашигла.</li>
+            </ul>
+            <input
+              type="password"
+              name="password"
+              class="password"
+              placeholder="Password"
+            />
+            <input
+              type="password"
+              name="confirm-password"
+              class="confirm-password"
+              placeholder="Confirm Your Password"
+            />
+            <button class="button-nex" onclick="NextSlide(3)">Next</button>
+          </div>
+          <div class="input-slide finish-slide">
+            <h3>Congratulations!</h3>
+            <p>
+              <i>Та бүртгүүлэхэд шаардлагатай бүх алхмуудыг гүйцэтгэсэн.</i>
+            </p>
+            <ul class="rules">
+              <li>
+                Бид хэрэглэгчдийнхээ нууцлал, аюулгүй байдлыг маш нухацтай авч
+                үздэг, мөн өгсөн бүх мэдээлэл байх нь чухал юм үнэн зөв,
+                шинэчлэгдсэн.
+              </li>
+              <li>
+                Бүх зүйл эмх цэгцтэй байгаа гэдгийг баталгаажуулсны дараа зүгээр
+                л "Илгээх" товчийг дарна уу.
+              </li>
+            </ul>
+
+            <button type="submit" class="button-nex" disabled>
+              <a href="./home.html">Sumbit</a>
+            </button>
+          </div>
+        </scroller>
+      </div>
+      <button class="GoBack" onclick="GoBack()">
+        <i class="fa-solid fa-arrow-left"></i>
+      </button>
+    </form>
+    <script src="./app.js"></script>
+  </body>
+</html>
